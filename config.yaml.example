@@ -1,0 +1,18 @@
+---
+interval_s: 20
+maxItems: 500
+default:
+    { 
+    host: myReallyCoolThingworxServer.mydomain.com,
+    port: 443,
+    isSecure: True,
+    appKey: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+    }
+server2:
+    {
+    host: myOtherReallyCoolThingworxServer.mydomain.com,
+    port: 80,
+    isSecure: False,
+    appKey: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+    }
+...
