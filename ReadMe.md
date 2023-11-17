@@ -9,12 +9,16 @@ When starting up the script will load the config.yaml file and then immediately 
 
 ## Installing prerequesites:
 
-'pip install argparse'
-'pip install pyyaml'
+Most of the libraries used are default python, but there are a few extras that you will need to install.
+
+pip install argparse
+pip install pyyaml
 
 ## Configuration:
 
-The script looks for a config.yaml file in the same directory. The format allows for extra server information to be setup and accessed with a single moniker. See config.yaml.example.
+The script looks for a config.yaml file in the same directory. The format allows for extra server information to be setup and accessed with a single moniker. See config.yaml.example for reference.
+
+**Note:** If you haven't already, create your own config.yaml file by copying the config.yaml.examlpe file.
 
 
 ## Running the Log viewer:
